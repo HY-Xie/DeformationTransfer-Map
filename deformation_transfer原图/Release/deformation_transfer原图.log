@@ -1,0 +1,66 @@
+﻿  stdafx.cpp
+  Mesh.cpp
+d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\geometry\vector11t.hh(738): warning C4244: 'argument': conversion from 'const OtherScalar' to 'const Scalar', possible loss of data
+          with
+          [
+              OtherScalar=double
+          ]
+          and
+          [
+              Scalar=float
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(394): note: see reference to function template instantiation 'OpenMesh::VectorT<float,3> &OpenMesh::vectorize<float,3,double>(OpenMesh::VectorT<float,3> &,const OtherScalar &)' being compiled
+          with
+          [
+              OtherScalar=double
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(393): note: while compiling class template member function 'void OpenMesh::PolyMeshT<Kernel>::calc_vertex_normal_fast(OpenMesh::VertexHandle,OpenMesh::VectorT<float,3> &) const'
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(381): note: see reference to function template instantiation 'void OpenMesh::PolyMeshT<Kernel>::calc_vertex_normal_fast(OpenMesh::VertexHandle,OpenMesh::VectorT<float,3> &) const' being compiled
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(379): note: while compiling class template member function 'OpenMesh::VectorT<float,3> OpenMesh::PolyMeshT<Kernel>::calc_vertex_normal(OpenMesh::VertexHandle) const'
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(458): note: see reference to function template instantiation 'OpenMesh::VectorT<float,3> OpenMesh::PolyMeshT<Kernel>::calc_vertex_normal(OpenMesh::VertexHandle) const' being compiled
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(265): note: while compiling class template member function 'void OpenMesh::PolyMeshT<Kernel>::update_face_normals(void)'
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\polymesht.cc(250): note: see reference to function template instantiation 'void OpenMesh::PolyMeshT<Kernel>::update_face_normals(void)' being compiled
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<OpenMesh::DefaultTraits,true>,OpenMesh::TriConnectivity>
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\trimesht.cc(80): note: while compiling class template member function 'OpenMesh::VectorT<float,3> OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>::calc_face_normal(OpenMesh::FaceHandle) const'
+          with
+          [
+              Traits=OpenMesh::DefaultTraits
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\external\include\openmesh\core\mesh\trimesh_arraykernelt.hh(101): note: see reference to class template instantiation 'OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>' being compiled
+          with
+          [
+              Traits=OpenMesh::DefaultTraits
+          ]
+  d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\mesh.h(17): note: see reference to class template instantiation 'OpenMesh::TriMesh_ArrayKernelT<OpenMesh::DefaultTraits>' being compiled
+  deformation_transfer原图.cpp
+d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\helper.hpp(44): warning C4018: '<': signed/unsigned mismatch
+d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\helper.hpp(56): warning C4018: '<': signed/unsigned mismatch
+d:\my_codes\c++\deformation_transfer原图\deformation_transfer原图\deformation_transfer原图.cpp(210): warning C4018: '<': signed/unsigned mismatch
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 3059 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  deformation_transfer原图.vcxproj -> D:\My_Codes\C++\deformation_transfer原图\Release\deformation_transfer原图.exe
